@@ -219,7 +219,7 @@ function restartGame() {
 }
 
 function endGame() {
-    clearInterval(timerId);
+    clearInterval();
     document.querySelector('.modal-back').classList.remove('hide');
     document.querySelector('.restart').classList.add('hide');
     const endScore = document.querySelector('.end-score');
